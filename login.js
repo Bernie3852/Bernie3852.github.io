@@ -11,7 +11,7 @@ function login() {
         alert("請輸入密碼");
 
     } else if (username.value == "neko" && pass.value == "meowmeow") {      //如果使用者輸入正確的帳號密碼
-        window.location.href = "welcome_page.html";                         //將畫面導向至歡迎頁面
+        window.location.href = "old index.html";                         //將畫面導向至歡迎頁面
     } else {
         alert("錯誤的使用者名稱或密碼")                                     //如果使用者沒有輸入正確的帳號密碼
     }
